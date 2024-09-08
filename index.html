@@ -5,69 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tree Target - CSS Battle</title>
   <style>
-    /* Ensure the body and HTML take up the full height */
-    html, body {
-      height: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #90D3A6; /* Background color for the entire page */
-    }
-
-    /* Container for centering the tree */
-    .container {
-      position: relative;
-      width: 220px; /* Adjusted width of the entire tree */
-      height: 300px; /* Adjusted height of the entire tree */
-    }
-
-    /* Individual tree elements */
-    .roots, .tree, .leg-one, .leg-two, .arm-one, .arm-two {
+    div {
+      width: 10000px;
+      height: 10000px;
+      background: #90D3A6;
       position: absolute;
-      background: #024817;
-      border-radius: 10px;
+      top: 0;
+      left: 0;
     }
-
     .roots {
       width: 20px;
       height: 200px;
-      left: 100px;
+      background: #024817;
+      position: absolute;
+      left: 190px;
       top: 130px;
+      border-radius: 10px;
       transform: rotate(-90deg);
     }
-
     .tree {
       width: 20px;
       height: 175px;
-      left: 100px;
+      background: #024817;
+      position: absolute;
+      left: 190px;
       top: 60px;
+      border-radius: 10px;
     }
-
     .leg-one {
       width: 20px;
       height: 65px;
-      left: 75px;
+      background: #024817;
+      position: absolute;
+      left: 165px;
       top: 130px;
+      border-radius: 10px;
       transform: rotate(-65deg);
     }
-
     .leg-two {
       width: 20px;
       height: 70px;
-      left: 120px;
+      background: #024817;
+      border-radius: 10px;
+      position: absolute;
+      left: 210px;
       top: 130px;
       transform: rotate(-105deg);
     }
-
     .arm-one {
       width: 20px;
       height: 65px;
-      left: 130px;
+      background: #024817;
+      border-radius: 10px;
+      position: absolute;
+      left: 220px;
       top: 75px;
       transform: rotate(-110deg);
     }
-
     .arm-two {
       width: 20px;
-      height: 65
+      height: 65px;
+      background: #024817;
+      border-radius: 10px;
+      position: absolute;
+      left: 160px;
+      top: 75px;
+      transform: rotate(-70deg);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <div class="roots"></div>
+  <div class="tree"></div>
+  <div class="leg-one"></div>
+  <div class="leg-two"></div>
+  <div class="arm-one"></div>
+  <div class="arm-two"></div>
+</body>
+</html>
